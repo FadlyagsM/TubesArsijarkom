@@ -1,0 +1,604 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Serif", serif;
+    font-style: normal;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overscroll-behavior: none;
+}
+
+
+.pembuka{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(gambar/pexels-eberhardgross-640809.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    
+}
+
+
+
+.kucing{
+    width:10%;
+    float: left;
+    
+
+}
+
+
+
+nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+
+}
+nav a:hover{
+    color: #9e5f1e;
+}
+
+
+
+.nihao{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    padding-left: 0%;
+}
+.nihao:hover{
+    color: #9e5f1e;
+}
+
+
+.pembuka{
+    font-weight:100 ;
+    font-size: 400%;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
+    
+
+}
+
+
+
+.foto{
+    padding-top: 20%;
+    width: 43%;
+    float: left;
+    padding-left: 15%;
+    transition:  600ms ease-in-out;
+
+}
+.foto:hover{
+    transform: scale(1.35);
+}
+
+.isipropil{
+    padding-left: 5%;
+    padding-top: 22%;
+    color: #9e5f1e;
+    font-size: 150%;
+}
+.isipropil h4{
+    padding-left: 53%;
+    font-weight: lighter;
+}
+.isipropil h1 {
+    padding-left: 53%;
+}
+.subisipropil{
+    padding-left: 55%;
+    color: black;
+    padding-right: 10%;
+    text-align: justify;
+    font-size: 130%;
+    
+}
+
+#kontak{
+    padding-top: 10%;
+    text-align: center;
+    color: #9e5f1e;
+    padding-bottom: 12%;
+    
+}
+.wa{
+    width: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition:  600ms ease-in-out;
+}
+.wa:hover{
+    transform: scale(1.50);
+}
+.ikon{
+    transition:  600ms ease-in-out;
+}
+.fb{
+    width: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition:  600ms ease-in-out;
+
+}
+.fb:hover{
+    transform: scale(1.50);
+}
+
+.ig{
+    width: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition:  600ms ease-in-out;
+}
+.ig:hover{
+    transform: scale(1.50);
+}
+.hub{
+    width: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition:  600ms ease-in-out;
+}
+.hub:hover{
+    transform: scale(1.50);
+}
+.judulmateri{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #9e5f1e;
+    color: #e2e4e1;
+}
+.isimateri1{
+    padding-top: 0%;
+    padding-left: 15%;
+    padding-right: 5%;
+    font-size: 25px;
+}
+
+.isimateri1 h3 {
+    padding-top: 5%;
+    font-style: italic;
+    text-align: center ;
+    font-size: 35px;
+    color: #9e5f1e;
+    padding-right: 50%;
+}
+
+.isimateri1 p {
+    text-align: center ;
+    font-size: 20px;
+    padding-right: 50%;
+    padding-bottom: 5%;
+}
+.link1{
+    color: #9e5f1e;
+    font-style: italic;
+    text-align: center;
+}
+.komputer{
+    padding-top: 10%;
+    width: 40%;
+    float: right;
+
+}
+
+
+
+.isimateri2{
+    background-color: #e2e4e1;
+    padding-top: 5%;
+    
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    text-align: justify;
+    font-size: 25px;
+}
+.isimateri2 h3 {
+    font-style: italic;
+    text-align: center ;
+    font-size: 35px;
+    color: #9e5f1e;
+    padding-left: 50%;
+}
+
+.isimateri2 p {
+    text-align: center ;
+    font-size: 20px;
+    padding-left: 50%;
+    padding-bottom: 5%;
+}
+.printer{
+    padding-top: 7%;
+    width: 40%;
+    float: left;
+}
+.kotak2{
+    background: #9e5f1e;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 395%;
+    left: 10%;
+}
+.link2{
+    color: #9e5f1e;
+    font-style: italic;
+
+}
+
+
+
+
+.isimateri3{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 5%;  
+}
+.isimateri3 h3 {
+    font-style: italic;
+    text-align: center ;
+    font-size: 35px;
+    color: #9e5f1e;
+    padding-right: 50%;
+}
+.isimateri3 p {
+    text-align: center ;
+    font-size: 20px;
+    padding-right: 50%;
+    padding-bottom: 5%;
+}
+.telepon{
+    padding-top: 7%;
+    width: 40%;
+    float: right;
+}
+.kotak3{
+    background: #9e5f1e;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 485%;
+    right: 7%;
+}
+
+.link3{
+    color: #9e5f1e;
+    font-style: italic;
+}
+
+.isimateri4{
+    background-color: #e2e4e1;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    text-align: justify;
+    font-size: 25px;
+
+}
+.isimateri4 h3 {
+    font-style: italic;
+    text-align: center ;
+    font-size: 35px;
+    color: #9e5f1e;
+    padding-left: 50%;
+}
+.isimateri4 p {
+    text-align: center ;
+    font-size: 20px;
+    padding-left: 50%;
+    padding-bottom: 5%;
+}
+.tele{
+    padding-top: 3%;
+    width: 40%;
+    float: left;
+}
+.kotak4{
+    background: #9e5f1e;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 558%;
+    left: 10%;
+
+}
+
+.isimateri5{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 5%;  
+}
+.isimateri5 h3{
+    color: #9e5f1e;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    padding-right: 50%;
+}
+.isimateri5 p {
+    text-align: center ;
+    font-size: 20px;
+    padding-right: 50%;
+    padding-bottom: 5%;
+}
+.hp{
+    padding-top: 10%;
+    width: 40%;
+    float: right;
+}
+.kotak5{
+    background: #9e5f1e;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 665%;
+    right: 7%;
+}
+
+
+    
+.paragraf{
+    margin-left: 10%;
+    margin-right: 58%;
+}
+.sub-par{
+    margin-left: 12%;
+    margin-right: 59%;
+}
+
+
+    
+.tekx{
+    text-align: center;
+    padding: 4%;
+    font-size: 60px;
+}
+
+.sub-par{
+    margin-left: 12%;
+    margin-right: 59%;
+}
+
+
+
+.fotomateri{
+    width: 56%;
+}
+
+@media screen and (max-width: 770px){
+    .navbar{
+        font-size: 10px;
+        width: 100%;
+    }
+    .navbar nav a{
+        display: none;
+        font-size: 20px;
+    }
+    .nihao{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+
+    }
+    .kucing{
+        align-content: space-between;
+        width: 15%;
+        
+    }
+
+
+
+    .pembuka{
+        font-size: 58px;
+        padding-top: 35%;
+        width: 100%;
+    }
+
+    .foto{
+        padding-top: 25%;
+        padding-left: 25%;
+        padding-right: 10%;
+        justify-content: center;
+        width: 85%;
+        padding-bottom: 25%;
+    }
+    
+    
+    .isipropil h4{
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 5%;
+        font-size: 30px;
+        width: 100%;
+    }
+    .isipropil h1{
+        padding-right: 5%;
+        text-align: center;
+        padding-left: 0%;
+        font-size: 30px;
+        width: 100%;
+    }
+    .subisipropil{
+        font-size:15px;
+        text-align: center;
+        padding-left: 10%;
+        width: 100%;
+    }
+    #kontak{
+
+        width: 100%;
+    }
+
+    #kontak h1{
+        font-size: 20px;
+    }
+
+    .hub{
+        width: 15%;
+    }
+    .fb{
+        width: 15%;
+    }
+    .wa{
+        width: 15%;
+    }
+    .ig{
+        width: 15%;
+    }
+
+
+    .judulmateri{
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .komputer{
+        padding-right: 12%;
+        width: 100%;
+        float: left;
+    }
+    .printer{
+        padding-left: 8%;
+        width: 100%;
+        float: left;
+    }
+
+    .telepon{
+        padding-right: 12%;
+        width: 100%;
+        float: left;
+    }
+    .tele{
+        padding-left: 8%;
+        width: 100%;
+        float: left;
+    }
+    .hp{
+        padding-right: 12%;
+        width: 100%;
+        float: left;
+        
+    }
+
+    .isimateri1 h3 {
+        padding-left: 0%;
+        padding-right: 10%;
+        width: 100%;
+        text-align: center;
+        font-size:25px;
+        
+    }
+    
+    .isimateri1 p {
+        padding-right:10%;
+        font-size: 15px;
+        width: 100%;
+    }
+    .link1{
+        font-size: 10px;
+    }
+
+    .isimateri2{
+        background-color: #e2e4e1;
+    }
+
+    .isimateri2 h3 {
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 10%;
+        text-align: center;
+        font-size:25px;
+    }
+    .isimateri2 p {
+        padding-left:10%;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+
+    }
+    .link2{
+        font-size: 10px;
+    }
+    .isimateri3 h3 {
+        padding-left:0%;
+        padding-right: 10%;
+        width: 100%;
+        text-align: center ;
+        font-size:25px;
+    }
+    .isimateri3 p {
+        padding-right:10%;
+        font-size: 15px;
+        width: 100%;
+    }
+    .link3{
+        font-size: 10px;
+    }
+
+    .isimateri4{
+        background-color: #e2e4e1;
+
+    }
+    .isimateri4 h3 {
+        width: 100%;
+        padding-left: 6%;
+        padding-right: 0%;
+        text-align: center;
+        font-size:25px;
+    }
+    .isimateri4 p {
+        padding-left:10%;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+    }
+    
+
+    .isimateri5 h3 {
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+        text-align: justify;
+        font-size:25px;
+    }
+    .isimateri5 p {
+        padding-right:10%;
+        font-size: 15px;
+        width: 100%;
+
+    }
+
+}
