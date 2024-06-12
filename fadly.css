@@ -46,7 +46,6 @@ body{
 }
 
 
-
 nav a {
     margin-left: 40px;
     text-decoration: none;
@@ -400,29 +399,39 @@ nav a:hover{
 
 @media screen and (max-width: 770px){
     .navbar{
-        font-size: 10px;
         width: 100%;
+        padding: 5% ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-    .navbar nav a{
-        display: none;
-        font-size: 20px;
+    nav a{
+        margin-left: 14px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        font-weight: bolder;
+        
     }
+    
+
     .nihao{
-        font-size: 20px;
-        text-align: center;
-        width: 100%;
+        display: none;
+        font-size: 0px;
+        
+        
 
     }
     .kucing{
-        align-content: space-between;
-        width: 15%;
+        display: none;
+        width:3%;
         
     }
 
 
 
     .pembuka{
-        font-size: 58px;
+        font-size: 52px;
         padding-top: 35%;
         width: 100%;
     }
